@@ -32,7 +32,7 @@ db.once('open', function() {
 
 
 /* **************************************** */
-/* Enable sessions and storing session data in the database */
+/* Enable sessions and storing session data in the database 1*/
 /* **************************************** */
 const session = require("express-session"); // to handle sessions using cookies 
 var MongoDBStore = require('connect-mongodb-session')(session);
